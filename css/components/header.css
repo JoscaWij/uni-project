@@ -3,12 +3,28 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: linear-gradient(
-    90deg,
-    rgba(5, 0, 93, 1) 0%,
-    rgba(9, 53, 121, 1) 50%,
-    rgba(5, 89, 105, 1) 100%
-  );
+  background: var(--background-gradient);
   color: white;
   padding: 40px;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.nav__link {
+  flex-basis: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+
+.header_theme-btn {
+  position: relative;
+  right: 10px;
+  background: inherit;
+  color: inherit;
+  border: none;
+  border-radius: 20px;
 }

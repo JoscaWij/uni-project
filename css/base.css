@@ -3,8 +3,19 @@
   margin: 0;
 }
 
+:root {
+  --background-gradient: linear-gradient(
+    -90deg,
+    rgba(4, 0, 66, 1) 0%,
+    rgba(0, 4, 11, 1) 50%,
+    rgba(0, 6, 52, 1) 100%
+  );
+}
+
 body {
   grid-template-rows: 50px 1fr 10px;
+  width: 100vw;
+  height: 100vh;
 }
 
 main {
