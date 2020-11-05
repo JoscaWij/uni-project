@@ -15,21 +15,19 @@ header {
 
 .nav {
   display: flex;
-  flex-wrap: wrap;
-  padding: 20px;
   justify-content: center;
 }
 
 .nav__link {
-  flex-basis: 100%;
   text-decoration: none;
   color: inherit;
-  text-align: right;
-  margin-bottom: 5px;
+  padding: 0 10px;
 }
 
 .header_theme-btn {
-  align-self: flex-start;
+  position: absolute;
+  right: 10px;
+  display: flex;
   background: inherit;
   color: inherit;
   border: 1px solid #d1d1d1;
