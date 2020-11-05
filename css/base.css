@@ -6,3 +6,7 @@
 body {
   grid-template-rows: 50px 1fr 10px;
 }
+
+main {
+  grid-row: 2/3;
+}
