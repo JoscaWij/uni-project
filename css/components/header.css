@@ -5,26 +5,35 @@ header {
   align-items: center;
   background: var(--background-gradient);
   color: white;
-  padding: 40px;
+  padding: 20px;
+}
+
+.header__title {
+  padding-right: 10px;
+  text-align: center;
 }
 
 .nav {
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
+  justify-content: center;
 }
 
 .nav__link {
   flex-basis: 100%;
   text-decoration: none;
   color: inherit;
+  text-align: right;
+  margin-bottom: 5px;
 }
 
 .header_theme-btn {
-  position: relative;
-  right: 10px;
+  align-self: flex-start;
   background: inherit;
   color: inherit;
-  border: none;
+  border: 1px solid #d1d1d1;
   border-radius: 20px;
+  outline: none;
+  padding: 5px;
 }
