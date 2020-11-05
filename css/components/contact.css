@@ -1,0 +1,5 @@
+#contact {
+  background: var(--dark-gradient);
+  color: var(--light-color);
+  border-radius: 25px 25px 0 0;
+}
