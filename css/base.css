@@ -4,20 +4,21 @@
 }
 
 :root {
-  --background-gradient: linear-gradient(
+  --dark-gradient: linear-gradient(
     -90deg,
     rgba(4, 0, 66, 1) 0%,
     rgba(0, 4, 11, 1) 50%,
     rgba(0, 6, 52, 1) 100%
   );
+
+  --light-gradient: linear-gradient(
+    180deg,
+    rgba(242, 242, 242, 1) 0%,
+    rgba(231, 229, 229, 1) 44%,
+    rgba(219, 219, 219, 1) 100%
+  );
 }
 
 body {
-  grid-template-rows: 50px 1fr 10px;
-  width: 100vw;
-  height: 100vh;
-}
-
-main {
-  grid-row: 2/3;
+  background: var(--light-gradient);
 }
