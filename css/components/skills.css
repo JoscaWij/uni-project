@@ -1,0 +1,12 @@
+.skills__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills__list--item {
+  background: var(--dark-gradient);
+  border-radius: 25px;
+  list-style: none;
+  color: var(--light-color);
+}
