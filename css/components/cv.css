@@ -15,5 +15,14 @@
 }
 
 .cv__list--item {
-  text-align: center;
+  text-align: left;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .cv__list {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+  }
 }
