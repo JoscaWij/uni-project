@@ -24,7 +24,12 @@
   position: absolute;
   right: 10px;
   display: flex;
-  background: inherit;
+  background: linear-gradient(
+    -90deg,
+    rgba(4, 0, 66, 1) 0%,
+    rgba(0, 4, 11, 1) 50%,
+    rgba(0, 6, 52, 1) 100%
+  );
   color: inherit;
   border: 1px solid var(--highlight-color);
   border-radius: 20px;
