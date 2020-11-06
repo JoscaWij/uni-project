@@ -1,0 +1,30 @@
+.worksampels__sampels {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.sampels__img {
+  width: 47%;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  border: 5px solid #f2f2f2;
+}
+
+.sampels__img:nth-of-type(even) {
+  position: relative;
+  top: -30px;
+  z-index: -1;
+}
+
+.sampels__img:nth-of-type(odd) {
+  position: relative;
+  top: 40px;
+  z-index: -1;
+}
+
+@media (min-width: 768px) {
+  .sampels__img {
+    width: 23%;
+  }
+}
