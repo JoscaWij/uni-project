@@ -1,5 +1,5 @@
 #contact {
-  background: var(--dark-gradient);
-  color: var(--light-color);
+  background: var(--highlight-gradient);
+  color: var(--highlight-font-color);
   border-radius: 25px 25px 0 0;
 }

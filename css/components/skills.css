@@ -5,8 +5,8 @@
 }
 
 .skills__list--item {
-  background: var(--dark-gradient);
+  background: var(--highlight-gradient);
   border-radius: 25px;
   list-style: none;
-  color: var(--light-color);
+  color: var(--highlight-font-color);
 }

@@ -4,23 +4,24 @@
 }
 
 :root {
-  --dark-gradient: linear-gradient(
+  --highlight-gradient: linear-gradient(
     -90deg,
     rgba(4, 0, 66, 1) 0%,
     rgba(0, 4, 11, 1) 50%,
     rgba(0, 6, 52, 1) 100%
   );
 
-  --light-gradient: linear-gradient(
+  --background-gradient: linear-gradient(
     180deg,
     rgba(242, 242, 242, 1) 0%,
     rgba(231, 229, 229, 1) 44%,
     rgba(219, 219, 219, 1) 100%
   );
 
-  --light-color: #f2f2f2;
+  --highlight-font-color: #f2f2f2;
+  --main-font-color: rgba(0, 4, 11);
 }
 
 body {
-  background: var(--light-gradient);
+  background: var(--background-gradient);
 }

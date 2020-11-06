@@ -1,10 +1,10 @@
 #about-me {
-  background: var(--dark-gradient);
+  background: var(--highlight-gradient);
   display: flex;
   flex-direction: column;
   place-items: center;
   border-radius: 0 0 25px 25px;
-  color: var(--light-color);
+  color: var(--highlight-font-color);
 }
 
 .about-me__img {
