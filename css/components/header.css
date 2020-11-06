@@ -20,6 +20,10 @@
   padding: 0 10px;
 }
 
+.nav__link:hover {
+  text-decoration: underline;
+}
+
 .header_theme-btn {
   position: absolute;
   right: 10px;
