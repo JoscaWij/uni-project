@@ -3,63 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio Josca Wijtenburg</title>
     <link rel="stylesheet" href="/css/styles.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script defer src="index.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Josca Wijtenburg</h1>
-        <nav>
-            <a href="#about-me">Über mich</a>
-            <a href="#skills">Fähigkeiten</a>
-            <a href="#cv">Lebenslauf</a>
-            <a href="#worksampels">Arbeitsproben</a>
+    <header class="header p-20">
+        <nav class="nav">
+            <a class="nav__link" href="#about-me">About me </a>
+            <a class="nav__link" href="#skills">Skills</a>
+            <a class="nav__link" href="#cv">CV</a>
+            <a class="nav__link" href="#worksampels">Work sampels</a>
+            <a class="nav__link" href="#contact">Contact</a>
         </nav>
-        <button>toggle theme</button>
+        <button class="header_theme-btn"><img src="/assets/images/halfmoon.svg" alt="toggle theme"></button>
     </header>
     <main>
-    <section id="about-me">
-        <h2>Über mich</h2>
-        <img src="/assets/images/Josca_Wijtenburg.png" alt="">
-        <p>blah blah</p>
+    <section id="about-me" class="p-20">
+        <img class="about-me__img mb-10" src="/assets/images/Josca_Wijtenburg.png" alt="">
+        <h1 class="about-me__title mb-10">Josca Wijtenburg</h1>
+        <p class="about-me__introduction"><strong>Feelancer - online editor - web developer</strong><br/> Hi. I am a 24 year old MBA student based in Hamburg (Germany). Storytelling is my passion. I like to develop storys for marketing-massages, user flows or fiction.</p>
     </section>
-    <section id="skills">
-        <h2>Skills</h2>
-        <h3>Technische Skills</h3>
-        <ul>
-            <li>React</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Photoshop</li>
-            <li>Adobe XD</li>
-            <li>Git-Workflow</li>
-        </ul>
-        <h3>Sprachen</h3>
-        <ul>
-            <li>Deutsch</li>
-            <li>Englisch</li>
-            <li>Niederländisch</li>
-        </ul>
+    <section id="skills" class="p-20">
+        <h2 class="mb-10">Skills</h2>
+        <section class="skills__technic">
+            <h3 class="mb-10">Technical skills</h3>
+            <ul class="skills__list p-0">
+                <li class="skills__list--item p-20 m-10">React</li>
+                <li class="skills__list--item p-20 m-10">HTML</li>
+                <li class="skills__list--item p-20 m-10">CSS</li>
+                <li class="skills__list--item p-20 m-10">JavaScript</li>
+                <li class="skills__list--item p-20 m-10">Photoshop</li>
+                <li class="skills__list--item p-20 m-10">Adobe XD</li>
+            </ul>
+        </section>
+        <section class="skills__language">
+            <h3 class="mb-10">Languages</h3>
+            <ul class="skills__list p-0">
+                <li class="skills__list--item p-20 m-10">German</li>
+                <li class="skills__list--item p-20 m-10">English</li>
+                <li class="skills__list--item p-20 m-10">Dutch</li>
+            </ul>
+        </section>
     </section>
-    <section id="cv">
-        <h2>Lebenslauf</h2>
+    <section id="cv" class="p-20">
+        <h2 class="cv__heading mb-10">CV</h2>
         <ol class="cv__list">
-            <li class="cv__list--item"></li>
-            <li class="cv__list--item"></li>
-            <li class="cv__list--item"></li>
-            <li class="cv__list--item"></li>
-            <li class="cv__list--item"></li>
-            <li class="cv__list--item"></li>
-            <li class="cv__list--item"></li>
-            <li class="cv__list--item"></li>
-            <li class="cv__list--item"></li>
+            <li class="cv__list--item p-10">Bootcamp - web development - neue fische</li>
+            <li class="cv__list--item p-10">MBA Digital- and Mediamanagement Hamburg</li>
+            <li class="cv__list--item p-10">Rock Your Life! - social - Coach</li>
+            <li class="cv__list--item p-10">AISEC - social - Marketing manager</li>
+            <li class="cv__list--item p-10">Bachelor in Communication in Stuttgart</li>
+            <li class="cv__list--item p-10">A-Levels in Baveria</li>
         </ol>
     </section>
-    <section id="work">
-        <h2>Arbeitserfahrung</h2>
-        <section class="work__sampels">
-            <img class="sampels__img" src="/assets/images/sampelsAC.jpg" alt="">
+    <section id="worksampels" class="p-20">
+        <h2 class="mb-10">Work sampels</h2>
+        <div class="worksampels__sampels">
+            <img class="sampels__img" src="/assets/images/sampelsAC.jpg" alt="8 illustrations according different tv-series and topics">
             <img class="sampels__img" src="/assets/images/sampelsAoT.jpg" alt="">
             <img class="sampels__img" src="/assets/images/sampelsCC.JPG" alt="">
             <img class="sampels__img" src="/assets/images/sampelsFT.JPG" alt="">
@@ -67,18 +69,38 @@
             <img class="sampels__img" src="/assets/images/sampelsK.jpg" alt="">
             <img class="sampels__img" src="/assets/images/sampelsMHA.jpg" alt="">
             <img class="sampels__img" src="/assets/images/sampelsCT.jpg" alt="">
-        </section>
+        </div>
+    </section>
+    <section id="contact" class="p-20">
+        <h2 class="contact__title mb-10">Get in contact</h2>
+        <form class="contact__form ">
+            <label class="form__label" for="name"> Name
+                <input class="form__label--input" type="text" name="name" placeholder="name surname">
+            </label>
+            <label class="form__label" for="e-mail"> E-mail
+                <input class="form__label--input" type="e-mail" name="e-mail" placeholder="mail@e-mail.com">
+            </label>
+            <label class="form__label" for="message"> Message
+                <input class="form__label--input  input__message" type="text" name="massage">
+            </label>
+            <input class="form__label--input" type="submit"/>
+        </form>
+        <iframe
+        class="contact__map"
+        src="https://api.mapbox.com/styles/v1/mapbox/dark-v10.html?title=false&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#10.03/53.5518/10.0623"
+        frameborder="0"
+      ></iframe>
     </section>
     </main>
-    <footer>
-        <a href="#">
-            <img class="footer__img" src="/assets/images/github.svg" alt=""/>
+    <footer class="footer p-20">
+        <a href="https://github.com/JoscaWij">
+            <img class="footer__img mr-20 p-5" src="/assets/images/github.svg" alt=""/>
         </a>
-        <a href="#">
-            <img class="footer__img" src="/assets/images/xing.svg" alt=""/>
+        <a href="https://www.xing.com/profile/Josca_Wijtenburg">
+            <img class="footer__img mr-20 p-5" src="/assets/images/xing.svg" alt=""/>
         </a>
-        <a href="#">
-            <img class="footer__img" src="/assets/images/linkedin.svg" alt=""/>
+        <a href="https://www.linkedin.com/in/josca-wijtenburg-457264160/">
+            <img class="footer__img mr-20 p-5" src="/assets/images/linkedin.svg" alt=""/>
         </a>
     </footer>
 </body>

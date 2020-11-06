@@ -1,0 +1,17 @@
+#about-me {
+  background: var(--highlight-gradient);
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  border-radius: 0 0 25px 25px;
+  color: var(--highlight-color);
+}
+
+.about-me__introduction {
+  text-align: center;
+}
+
+.about-me__img {
+  height: 200px;
+  width: auto;
+}
