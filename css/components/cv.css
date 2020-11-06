@@ -1,0 +1,19 @@
+#cv {
+  background: var(--highlight-gradient);
+  color: var(--highlight-color);
+  border-radius: 20px;
+}
+
+.cv__heading {
+  color: inherit;
+}
+
+.cv__list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: square;
+}
+
+.cv__list--item {
+  text-align: center;
+}
