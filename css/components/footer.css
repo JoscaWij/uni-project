@@ -5,5 +5,16 @@
 }
 
 .footer__img {
-  height: 30px;
+  height: 35px;
+  background: linear-gradient(
+    -90deg,
+    rgba(4, 0, 66, 1) 0%,
+    rgba(0, 4, 11, 1) 50%,
+    rgba(0, 6, 52, 1) 100%
+  );
+  border-radius: 10px;
+}
+
+.footer__img:hover {
+  padding: 3px;
 }
