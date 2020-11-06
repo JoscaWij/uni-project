@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
 .skills__list--item {
@@ -9,4 +10,18 @@
   border-radius: 25px;
   list-style: none;
   color: var(--highlight-color);
+}
+
+@media (min-width: 768px) {
+  #skills {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-gap: 0 20px;
+  }
+  .skills__technic {
+    grid-column: 1 / 2;
+  }
+  .skills__language {
+    grid-column: 2/3;
+  }
 }

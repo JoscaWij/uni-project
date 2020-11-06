@@ -3,3 +3,7 @@
   color: var(--highlight-color);
   border-radius: 25px 25px 0 0;
 }
+
+.contact__title {
+  color: inherit;
+}
