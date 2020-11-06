@@ -1,4 +1,6 @@
 #contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   background: var(--highlight-gradient);
   color: var(--highlight-color);
   border-radius: 25px 25px 0 0;
@@ -6,4 +8,15 @@
 
 .contact__title {
   color: inherit;
+  grid-column: 1/2;
+}
+
+.contact__form {
+  grid-column: 1/2;
+}
+
+.contact__map {
+  width: 100%;
+  border-radius: 20px;
+  grid-column: 2/3;
 }
