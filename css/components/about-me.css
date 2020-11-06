@@ -7,6 +7,10 @@
   color: var(--highlight-color);
 }
 
+.about-me__introduction {
+  text-align: center;
+}
+
 .about-me__img {
   height: 200px;
   width: auto;
