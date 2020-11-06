@@ -12,3 +12,17 @@ h2,
 h3 {
   color: var(--main-color);
 }
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background-gradient);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--highlight-gradient);
+  border-radius: 50px;
+  border: 1px solid var(--highlight-color);
+}
