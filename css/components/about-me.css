@@ -4,7 +4,7 @@
   flex-direction: column;
   place-items: center;
   border-radius: 0 0 25px 25px;
-  color: var(--highlight-font-color);
+  color: var(--highlight-color);
 }
 
 .about-me__img {

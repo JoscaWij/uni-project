@@ -8,5 +8,5 @@
   background: var(--highlight-gradient);
   border-radius: 25px;
   list-style: none;
-  color: var(--highlight-font-color);
+  color: var(--highlight-color);
 }
