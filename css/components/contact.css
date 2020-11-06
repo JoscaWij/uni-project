@@ -1,9 +1,11 @@
 #contact {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
   background: var(--highlight-gradient);
   color: var(--highlight-color);
   border-radius: 25px 25px 0 0;
+  text-align: center;
 }
 
 .contact__title {
@@ -13,10 +15,61 @@
 
 .contact__form {
   grid-column: 1/2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-between;
+  justify-content: center;
+  padding: 20px;
+}
+
+.form__label {
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  color: var(--highlight-color);
+}
+
+.form__label--input {
+  border-radius: 20px;
+  padding: 5px;
+  background: var(--background-gradient);
+  color: var(--main-color);
+  transition: 0.3s;
+  text-align: center;
+  outline: none;
+}
+
+.form__label--input::placeholder {
+  color: var(--main-color);
+}
+
+.input__message {
+  height: 60px;
+  text-align: left;
+}
+
+.form__label--input[type="submit"] {
+  padding: 10px;
+  color: var(--main-color);
+  border: 2px solid var(--highlight-color);
+}
+
+.form__label--input[type="submit"]:hover {
+  background: var(--highlight-gradient);
+  color: var(--hightlight-color);
 }
 
 .contact__map {
   width: 100%;
+  height: 100%;
   border-radius: 20px;
   grid-column: 2/3;
+}
+
+@media (max-width: 480px) {
+  #contact {
+    display: flex;
+    flex-direction: column;
+  }
 }

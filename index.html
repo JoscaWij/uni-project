@@ -36,7 +36,6 @@
                 <li class="skills__list--item p-20 m-10">JavaScript</li>
                 <li class="skills__list--item p-20 m-10">Photoshop</li>
                 <li class="skills__list--item p-20 m-10">Adobe XD</li>
-                <li class="skills__list--item p-20 m-10">Git</li>
             </ul>
         </section>
         <section class="skills__language">
@@ -77,13 +76,17 @@
     </section>
     <section id="contact" class="p-20">
         <h2 class="contact__title mb-10">Get in contact</h2>
-        <form class="contact__form">
-            <label for="">
-                <input type="text">
+        <form class="contact__form ">
+            <label class="form__label" for="name"> Name
+                <input class="form__label--input" type="text" name="name" placeholder="name surname">
             </label>
-            <label for="">
-                <input type="text">
+            <label class="form__label" for="e-mail"> E-mail
+                <input class="form__label--input" type="e-mail" name="e-mail" placeholder="mail@e-mail.com">
             </label>
+            <label class="form__label" for="message"> Message
+                <input class="form__label--input  input__message" type="text" name="massage">
+            </label>
+            <input class="form__label--input" type="submit"/>
         </form>
         <iframe
         class="contact__map"
