@@ -7,9 +7,9 @@
 
 .skills__list--item {
   background: var(--highlight-gradient);
+  color: var(--highlight-color);
   border-radius: 25px;
   list-style: none;
-  color: var(--highlight-color);
 }
 
 @media (min-width: 768px) {
@@ -18,7 +18,7 @@
     grid-template-columns: 1.5fr 1fr;
     grid-gap: 0 20px;
   }
-  .skills__technic {
+  .skills__technology {
     grid-column: 1 / 2;
   }
   .skills__language {

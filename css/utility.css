@@ -1,6 +1,7 @@
 .p-0 {
   padding: 0;
 }
+
 .p-5 {
   padding: 5px;
 }
@@ -9,18 +10,10 @@
   padding: 20px;
 }
 
-.p-10 {
-  padding: 10px;
-}
-
 .m-10 {
   margin: 10px;
 }
 
 .mb-10 {
   margin-bottom: 10px;
-}
-
-.mr-20 {
-  margin-right: 20px;
 }

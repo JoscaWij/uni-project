@@ -9,8 +9,8 @@
 }
 
 .contact__title {
-  color: inherit;
   grid-column: 1/2;
+  color: inherit;
 }
 
 .contact__form {
@@ -19,7 +19,6 @@
   flex-wrap: wrap;
   align-items: space-between;
   justify-content: center;
-  padding: 20px;
 }
 
 .form__label {
@@ -31,13 +30,12 @@
 }
 
 .form__label--input {
-  border-radius: 20px;
-  padding: 5px;
   background: var(--background-gradient);
   color: var(--main-color);
-  transition: 0.3s;
   text-align: center;
+  border-radius: 20px;
   outline: none;
+  transition: 0.3s;
 }
 
 .form__label--input::placeholder {
@@ -50,8 +48,8 @@
 }
 
 .form__label--input[type="submit"] {
-  padding: 10px;
   color: var(--main-color);
+  padding: 10px;
   border: 2px solid var(--highlight-color);
 }
 
@@ -61,10 +59,10 @@
 }
 
 .contact__map {
+  grid-column: 2/3;
   width: 100%;
   height: 100%;
   border-radius: 20px;
-  grid-column: 2/3;
 }
 
 @media (max-width: 480px) {
